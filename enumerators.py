@@ -67,8 +67,8 @@ def enum():
   
   # string methods and indexing
   
-  list_names = ["Maverick", "Alice", "Madeline", "Hazel", "Jack", "Meadow", "Thomas", "Emily", "Mills"]
-  for i,name in enumerate(list_names):
-    if name[0] == "M":
-      print(name)
-      print(i)
+  # list_names = ["Maverick", "Alice", "Madeline", "Hazel", "Jack", "Meadow", "Thomas", "Emily", "Mills"]
+  # for i,name in enumerate(list_names):
+  #   if name[0] == "M":
+  #     print(name)
+  #     print(i)

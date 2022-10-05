@@ -1,18 +1,18 @@
-def zip():
+def zip1():
   # zip
   # Notice the format enumerate actually returns, let's take a look by transforming it to a list()
   # list(enumerate('abcde'))
-  print("zip")
+  # print("zip")
   
   
-  # It was a list of tuples, meaning we could use tuple unpacking during our for loop. This data structure is actually very common in Python , especially when working with outside libraries. You can use the zip() function to quickly create a list of tuples by "zipping" up together two lists.
+  # # It was a list of tuples, meaning we could use tuple unpacking during our for loop. This data structure is actually very common in Python , especially when working with outside libraries. You can use the zip() function to quickly create a list of tuples by "zipping" up together two lists.
   
   
-  mylist1 = [1,2,3,4,5]
-  mylist2 = ['a','b','c','d','e']
+  # mylist1 = [1,2,3,4,5]
+  # mylist2 = ['a','b','c','d','e']
   
-  # This one is also a generator! We will explain this later, but for now let's transform it to a list
-  zip(mylist1,mylist2)
+  # # This one is also a generator! We will explain this later, but for now let's transform it to a list
+  # zip(mylist1,mylist2)
   
   
   # list(zip(mylist1,mylist2))
@@ -25,9 +25,9 @@ def zip():
   # We've already seen the in keyword during the for loop, but we can also use it to quickly check if an object is in a list
   
   # 'x' in ['x','y','z']
-  # True
+  # # True
   # 'x' in [1,2,3]
-  # False
+  # # False
   
   
   
@@ -52,15 +52,20 @@ def zip():
   
   # Use the zip function, loops, and the following lists of countries and capitals to solve it quickly and efficiently.
   
-  # capitals = ["Berlin", "Tokyo", "Paris", "Helsinki", "Ottawa", "Canberra"]
-  # countries = ["Germany", "Japan", "France", "Finland", "Canada", "Australia"]
+  capitals = ["Berlin", "Tokyo", "Paris", "Helsinki", "Ottawa", "Canberra"]
+  countries = ["Germany", "Japan", "France", "Finland", "Canada", "Australia"]
   
+  for country,capital in zip(capitals, countries):
+    print(f"The capital of {country} is {capital}")
+      
   
   
   # Zip Practice #2
   # Create a zip object made up of lists, of a set of brands and products that you prefer, inside the my_zip variable.
-  # brands =
-  # products =
+  brands = ["Nike", "Pepsi", "Fortnite", "Levi's", "Apple"]
+  products =["Shoe", "Beverage", "Video Game", "Clothing", "Device Company"]
+  for brand, product in zip(brands, products):
+    print(f"{brand} is a {product}")
   
   
   # Zip Practice #3
@@ -85,6 +90,5 @@ def zip():
 # 3: tres / três / three
 # 4: cuatro / quatro / four
 # 5: cinco / cinco / five
-
 
 
