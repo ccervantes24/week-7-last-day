@@ -15,7 +15,7 @@
 # from dictionaries_loops import dictionaries_loops
 from random import random
 # from loops import loop
-from ranges import ranges
+# from ranges import ranges
 from enumerators import enum
 from zip import zip
 from min_max import min_max
@@ -23,7 +23,7 @@ from min_max import min_max
 # comparison()
 # loop()
 # random()
-ranges()
-# enum()
+# ranges()
+enum()
 # zip()
 # min_max()

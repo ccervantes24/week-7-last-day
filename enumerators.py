@@ -1,6 +1,10 @@
 def enum():
   # enumerate
-  print("enumerate")
+  # print("enumerate")
+  
+  # my_list = ['a', 'b', 'c']
+  # for index,item in enumerate(range(50,551)):
+  #   print(index,item)
   # enumerate is a very useful function to use with for loops. Let's imagine the following situation:
   
   # index_count = 0
@@ -34,8 +38,8 @@ def enum():
   # Tip: use loops!
   
   # list_names = ["Steven", "Jackie", "Donna", "Kelso", "Eric", "Fez", "Kitty", "Red"]
-  
-  # print(f'{nombre} se encuentra en el índice {indice}')
+  # for index, name in enumerate(range(list_names)):
+  #  print(f"{name} is found at {index}")
   
   
   
@@ -45,7 +49,8 @@ def enum():
   # Call the returned list with the variable name indices_list.
   
   # "Python"
-  
+  # indices_list = list(enumerate("python"))
+  # print(indices_list)
   
   # Enumerator Practice #3
   # Print to the screen only the indices of those names in the list below, that start with M:
@@ -62,5 +67,8 @@ def enum():
   
   # string methods and indexing
   
-  # list_names = ["Maverick", "Alice", "Madeline", "Hazel", "Jack", "Meadow", "Thomas", "Emily", "Mills"]
-  
+  list_names = ["Maverick", "Alice", "Madeline", "Hazel", "Jack", "Meadow", "Thomas", "Emily", "Mills"]
+  for i,name in enumerate(list_names):
+    if name[0] == "M":
+      print(name)
+      print(i)
