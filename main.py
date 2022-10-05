@@ -14,16 +14,16 @@
 # from comparison_operators import comparison
 # from dictionaries_loops import dictionaries_loops
 from random import random
-from loops import loop
-from ranges import range
+# from loops import loop
+from ranges import ranges
 from enumerators import enum
 from zip import zip
 from min_max import min_max
 # decisions()
 # comparison()
-loop()
+# loop()
 # random()
-# range()
+ranges()
 # enum()
 # zip()
 # min_max()
